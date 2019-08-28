@@ -1,0 +1,117 @@
+.z-index1 {
+	z-index: 1;
+}
+.z-index2 {
+	z-index: 2;
+}
+.z-index3 {
+	z-index: 3;
+}
+.html, body {
+	height: 100%;
+}
+.header {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0rem;
+	transition-duration: 0.5s;
+	margin: auto;
+	margin-bottom: 1rem;
+	box-shadow: 0rem .25rem .25rem rgba(0, 0, 0, 0.2);
+	background-color: white;
+	width: 100%;
+	max-width: 100%;
+	height: 5rem;
+	font-family: 'Anton', sans-serif;
+}
+.nameblock {
+	display: block;
+	position: absolute;
+	float: left;
+	transition-duration: 0.5s;
+	background-color: darkcyan;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	width: 15rem;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+.navspacing {
+	position: relative;
+	margin: auto;
+	width: 62rem;
+}
+.section {
+	flex: 1 0 auto;
+	margin: auto;
+	margin-bottom: 1rem;
+	box-shadow: 0.25rem .25rem .25rem rgba(0, 0, 0, 0.2);
+	background-color: white;
+	padding: 2rem;
+	width: 58rem;
+	max-width: 62rem;
+	line-height: 1.5;
+}
+.breaker {
+	position: absolute;
+	top: 0rem;
+	background-color: darkcyan;
+	width: 100%;
+	height: .33rem;
+}
+.footer {
+	position: relative;
+	bottom: 0rem;
+	flex-shrink: 0;
+	background-color: #666;
+	padding-top: 4rem;
+	width: 100%;
+	text-align: center;
+	line-height: 2.5;
+	color: white;
+	font-size: .7rem;
+}
+.biopic {
+	float: left;
+	padding-right: 1rem;
+	padding-bottom: 1rem;
+}
+.button {
+	display: inline-block;
+	margin-top: 1rem;
+	border: none;
+	background-color: darkcyan;
+	padding: 1rem 2rem;
+	text-align: center;
+	color: white;
+}
+.portfolioitem {
+	display: inline-block;
+	position: relative;
+	margin-top: 1.8rem;
+	margin-right: 1.8rem;
+}
+.portfolioitembanner a {
+	display: inline-block;
+	position: absolute;
+	top: 100px;
+	left: 0;
+	transition-duration: 0.5s;
+	background-color: darkcyan;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	width: 200px;
+	max-width: 200px;
+	text-align: center;
+	color: white;
+	font-family: 'Anton', sans-serif;
+}
+div.portfolioitembanner a:hover {
+	background: salmon;
+	cursor: pointer;
+	color: darkred;
+}
+.imgshadow {
+	box-shadow: 0.25rem .25rem .25rem rgba(0, 0, 0, 0.2);
+}

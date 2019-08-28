@@ -1,0 +1,62 @@
+a {
+	text-decoration: none;
+}
+ul {
+	margin: 0;
+	background: darkcyan;
+	padding-left: 0;
+	list-style: none;
+}
+li {
+	display: block;
+	float: right;
+	transition-duration: 0.5s;
+	background: darkcyan;
+	width: 8rem;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+  position: relative;
+}
+li:hover {
+	background: salmon;
+	cursor: pointer;
+}
+li a {
+	display: block;
+	position: relative;
+	float: right;
+	transition-duration: 0.5s;
+	background: darkcyan;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	width: 8rem;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+li a:hover {
+	background: salmon;
+	cursor: pointer;
+	color: darkred;
+}
+ul li ul {
+	display: none;
+	position: absolute;
+	left: 0;
+	transition: all 0.5s ease;
+	visibility: hidden;
+	opacity: 0;
+	background: darkcyan;
+	width: 8rem;
+}
+ul li:hover > ul,
+ul li ul:hover {
+	display: block;
+	visibility: visible;
+	opacity: 1;
+}
+ul li ul li {
+	clear: both;
+	width: 100%;
+}
